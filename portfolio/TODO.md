@@ -1,0 +1,3 @@
+- Loaders
+- Cursor
+- Animations -> fluid and beautiful (please attention to detail)
