@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="cards">
+        @for (currency of currencyList; track currency.code) {
+            <app-currency-card [currency]="currency"></app-currency-card>
+        } @empty {
+            <p>No currencies found</p>
+        }
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    height: var(--header-heigth);
+    display: flex;
+    justify-content: center;
+    background: var(--app-header-background);
+    box-shadow: 2px 1px 2px var(--shadow-color);
+
+    img {
+        padding: 2.8rem 0;
+    }
+}
